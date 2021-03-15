@@ -1,0 +1,316 @@
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame
+$ git config --global.name Rahul
+error: unknown option `global.name'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame
+$ ls
+bg1.jpg  bgg.jpg       highscore.txt  snakegame.py    start1.mp3
+bg2.jpg  gameover.mp3  Naginbg.mp3    snakegame.spec
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame
+$ git config --global.name "Rahul"
+error: unknown option `global.name'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame
+$ git config --global.name "SmartRahul"
+error: unknown option `global.name'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value-regex]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value_regex]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame
+$ git config --global.name Rahul
+error: unknown option `global.name'
+usage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-regex]
+    --get-all             get all values: key [value-regex]
+    --get-regexp          get values for regexp: name-regex [value
+    --get-urlmatch        get value specific for the URL: section[
+    --replace-all         replace all matching variables: name val
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-regex]
+    --unset-all           remove all matches: name [value-regex]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default
+    --get-colorbool       find the color setting: slot [stdout-is-
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard in
+    --show-scope          show scope of config (worktree, local, g
+    --default <value>     with --get, use default value when missi
+
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame
+$ git config --global user.name Rahul
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame
+$ git config --global user.email "pkrahul93@gmail.com"
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame
+$ touch .gitignore
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame
+$ get init
+bash: get: command not found
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame
+$ git init
+Initialized empty Git repository in C:/Users/smartrahul/Desktop/Snakegame/.git/
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame (master)
+$ git add .
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame (master)
+$ git commit -m "Initial commit"
+[master (root-commit) 536ebaf] Initial commit
+ 10 files changed, 224 insertions(+)
+ create mode 100644 .gitignore
+ create mode 100644 Naginbg.mp3
+ create mode 100644 bg1.jpg
+ create mode 100644 bg2.jpg
+ create mode 100644 bgg.jpg
+ create mode 100644 gameover.mp3
+ create mode 100644 highscore.txt
+ create mode 100644 snakegame.py
+ create mode 100644 snakegame.spec
+ create mode 100644 start1.mp3
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame (master)
+$ git remote add origin git@github.com:pkrahul93/Snakegame-.git
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame (master)
+$ git push origin master
+The authenticity of host 'github.com (13.234.176.102)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? no
+Host key verification failed.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame (master)
+$ ssh-keygen -t rsa -b 4096 -C "pkrahul93@gmail.com"
+Generating public/private rsa key pair.
+Enter file in which to save the key (/c/Users/smartrahul/.ssh/id_rsa):
+Created directory '/c/Users/smartrahul/.ssh'.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Passphrases do not match.  Try again.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in /c/Users/smartrahul/.ssh/id_rsa
+Your public key has been saved in /c/Users/smartrahul/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:49zXsNh31hAu9UNgNi3g0shwtOqFDa2AYi5Z9NXdBe4 pkrahul93@gmail.com
+The key's randomart image is:
++---[RSA 4096]----+
+|  .   .o.+ ooBo  |
+| . ...  * *.+.o. |
+| o.... . * o. +. |
+|oo.   . * .. o.o |
+|o.     +So  E o..|
+|.     .o.o o = .o|
+|       .o o + o +|
+|           . . o |
+|                 |
++----[SHA256]-----+
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame (master)
+$ cat /c/Users/smartrahul/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC9wDSbqGAPeOjndMOTCKxuTUs6d/JdA9TSc6pMRS4HfbBGXMdwdOBqaY/NqsNMsExGTXxzUGCQXaM0K+CD84bW+GXzNigjarbZ2SfJI5UCbyE4xynuidzUJ1aVxxYDxGFEL3qdD3hsv/qg1PT5Q6g/rqoY2O6e+Ed9XfswhM3L/e6kkBQCIjfcEkLaMqcYWuKCPKUWEmniM8VZEIaex4yqkBN4oF1k2nsmiKMvbDiVnijZ/rM5E8l3tHcmc9VLGL6hUzPZr4ns30JtDrINGNltCsijmXQPktIK3jDjmMh5uUXlltiqHdycPr50ZCpUFVf2lz11FosRpSW5o0GDllsXtj03bYTJAE74tfJLGMmmzZRgZ8R9gOPjRaJngMRB6/C14+DyJaXsB4iQRK2wPntDJ13wtqVSVVCNXLrvItOQKCz8VRnA5KsyJkYXcvII2AsGd8XTfL3ohID5rvratqUjMkqJtVd83jkKj1PblLMnwfZRHJeDRYt5zRFw/Qm5W1Q43H3M6oNxV/WDKYKae/TPEDyqPx0cj3JTETW3i3mXJ/lSnD8Ju2AZ/R+kQkNmGACzfivnqdBIBZnUwzPguG2HaU7oAL6XtORlDu7Q8tCU1t/D5ZkkNgAwI/mUNnzn3sI9kMZ9akXO/VYfEoak8GcpKJe7EUiEV1vqHaO2QoaIYw== pkrahul93@gmail.com
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame (master)
+$ ^C
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame (master)
+$ git push origin master
+The authenticity of host 'github.com (13.234.176.102)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGOCspRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com,13.234.176.102' (RSA) to the list of known hosts.
+Enumerating objects: 12, done.
+Counting objects: 100% (12/12), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (10/10), done.
+Writing objects:  91% (11/12), 2.48 MiB | 61.00 KiB/s
+Writing objects: 100% (12/12), 3.26 MiB | 20.00 KiB/s, done.
+Total 12 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:pkrahul93/Snakegame-.git
+ * [new branch]      master -> master
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame (master)
+$
+
+smartrahul@DESKTOP-2ACCQ28 MINGW64 ~/Desktop/Snakegame (master)
+$

@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(Img/cnt.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.nav{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav a:hover{
+    background-color: rgb(43, 255, 0);
+    color: tomato;
+    /* font-size: 30px; */
+    font-weight: bold;
+    border-radius: 12px;
+}
+.box{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 97px;
+    /* left: 0; */
+    z-index: 0;
+    overflow: hidden;
+}
+.bubble{
+    position: absolute;
+    bottom: 0;
+    background: transparent;
+    border-radius: 50%;
+    box-shadow: inset 0 0 10px rgba(255, 355, 455, 2.1);
+    animation: flying 10s infinite ease-in;
+}
+.bubble:nth-child(1){
+    height: 100px;
+    width: 100px;
+    left: 815px;
+    animation-duration: 8s;
+}
+.bubble:nth-child(2){
+    height: 150px;
+    width: 150px;
+    left: 732px;
+    animation-duration: 13s;
+}
+.bubble:nth-child(3){
+    height: 100px;
+    width: 100px;
+    left: 885px;
+    animation-duration: 11s;
+}
+.bubble:nth-child(4){
+    height: 120px;
+    width: 120px;
+    left: 637px;
+    animation-duration: 16s;
+}
+.bubble:nth-child(5){
+    height: 190px;
+    width: 190px;
+    left: 1005px;
+    animation-duration: 6s;
+}
+.bubble:nth-child(6){
+    height: 70px;
+    width: 70px;
+    right: 175px;
+    animation-duration: 11s;
+}
+.bubble:nth-child(7){
+    height: 75px;
+    width: 75px;
+    left: 50px;
+    animation-duration: 10s;
+}
+.bubble:nth-child(8){
+    height: 30px;
+    width: 30px;
+    right: 75px;
+    animation-duration: 5s;
+}
+.bubble:nth-child(9){
+    height: 90px;
+    width: 90px;
+    left: 65px;
+    animation-duration: 6s;
+}
+.bubble:nth-child(10){
+    height: 60px;
+    width: 60px;
+    left: 26px;
+    animation-duration: 15s;
+}
+.bubble:nth-child(11){
+    height: 125px;
+    width: 125px;
+    right: 56px;
+    animation-duration: 12s;
+}
+.bubble:nth-child(12){
+    height: 40px;
+    width: 40px;
+    left: 126px;
+    animation-duration: 13s;
+}
+.bubble:nth-child(13){
+    height: 110px;
+    width: 110px;
+    right: 326px;
+    animation-duration: 9s;
+}
+.bubble:nth-child(14){
+    height: 78px;
+    width: 78px;
+    left: 126px;
+    animation-duration: 14s;
+}
+.bubble:nth-child(15){
+    height: 90px;
+    width: 90px;
+    right: 826px;
+    animation-duration: 10s;
+}
+@keyframes flying
+{
+    0%
+    {
+        bottom: -100px;
+        transform: translateX(0);
+    }
+    50%
+    {
+        bottom: 435px;
+        transform: translateX(100px);
+    }
+    100%
+    {
+        bottom: 768px;
+        transform: translateX(-300px);
+    }
+}
+.box h2{
+      text-align: center;
+      font-size: 67px;
+      color: white;
+      /* margin-top: 104px; */
+      margin-bottom: 22px;
+      font-weight: bold
+}
+h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+form{
+    margin-top: 130px;
+}
+form table{
+    position: relative;
+    background-color: rgba(11, 253, 43, 0.39);
+    border-radius: 25px;
+    padding: 20px;
+    bottom: 115px;
+    margin: auto;
+    border: 4px solid greenyellow;
+}
+input{
+    width: 449px;
+    height: 18px;
+    padding: 23px;
+    margin: 2px;
+    font-size: 22px;
+    font-family: cursive;
+    color: #000;
+    border: 2px solid greenyellow;
+    border-radius: 45px 0px;
+}
+#msg{
+    width: 449px;
+    height: 67px;
+    padding: 23px;
+    margin-top: 21px;
+    font-size: 22px;
+    font-family: cursive;
+    color: #000;
+    overflow-y: hidden;
+    border: 2px solid greenyellow;
+    border-radius: 45px 0px;
+}
+#btn{
+    background-color: greenyellow;
+    color: white;
+    width: 203px;
+    font-weight: bold;
+    height: 50px;
+    font-size: 23px;
+    margin-top: 14px;
+    border-radius: 0px 60px;
+}
+#btn:hover{
+    background-color: blue;
+}
+span{
+    color: rgb(251, 255, 0);
+    font-size: 18px;
+    margin-left: 12px;
+    font-weight: bold;
+}
+.footer{
+    position: absolute;
+    color: honeydew;
+    font-size: 35px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    padding-top: 25px;
+    background-color: black;
+    margin: auto;
+    font-weight: bold;
+}

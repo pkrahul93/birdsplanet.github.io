@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(Img/bg1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+body::before{
+    content: '';
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+    /* background: url(Sprites/bg12.png) repeat-x bottom left; */
+}
+.nav{
+    font-size: 25px;
+    color: white;
+    font-weight: bold;
+}
+.nav a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav a:hover{
+    background-color: rgb(43, 255, 0);
+    color: tomato;
+    /* font-size: 30px; */
+    font-weight: bold;
+    border-radius: 12px;
+}
+.box{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    /* top: 97px; */
+    right: 0;
+    z-index: 0;
+    overflow: hidden;
+}
+.bird{
+    position: absolute;
+    right: -105px;
+    top: 0;
+    z-index: 1;
+    /* margin-top: -25px; */
+    width: 352px;
+    height: 331px;
+    transform: translate(-20%, -56%);
+    animation: fly 15s linear 1s infinite;
+    background: url(Img/bird.gif) no-repeat left center;
+    background-size: 311px;
+    background-position: 5px 0
+}
+.bird1{
+    position: absolute;
+    right: -101px;
+    top: 0;
+    z-index: 1;
+    margin-top: -25px;
+    width: 621px;
+    height: 596px;
+    transform: translate(83%, 18%);
+    background: url(Img/15.gif) no-repeat left center;
+    background-size: 332px;
+    animation: flying 15s linear 1s infinite;
+    background-position: 5px 0;
+}
+.bird2{
+    position: absolute;
+    right: -50px;
+    top: 0;
+    z-index: 1;
+    /* margin-top: 3px; */
+    width: 311px;
+    height: 277px;
+    transform: translate(-22%, 58%);
+    background: url(Img/17.gif) no-repeat left center;
+    background-size: 151px;
+    animation: fly 18s linear 1s infinite;
+    background-position: 5px 0;
+}
+.bird3{
+    position: absolute;
+    right: -120px;
+    top: 0;
+    z-index: 1;
+    margin-top: 32px;
+    width: 282px;
+    height: 281px;
+    transform: translate(60%, -35%);
+    background: url(Img/6.gif) no-repeat left center;
+    background-size: 301px;
+    background-position: 5px 0;
+    animation: flying 12s linear 1s infinite;
+}
+@keyframes flying
+{
+    0%
+    {
+        left: 150%;
+        top: 10%;
+    }
+    30%
+    {
+        left: 75%;
+        top: 50%;
+    }
+    50%
+    {
+        left: 50%;
+        top: 30%;
+    }
+    75%
+    {
+        left: 40%;
+        top: 20%;
+    }
+    100%
+    {
+        left: -50%;
+        top: 10%;
+    }
+}
+@keyframes fly
+{
+    0%
+    {
+        right: 150%;
+        top: 10%;
+    }
+    30%
+    {
+        right: 75%;
+        top: 50%;
+    }
+    50%
+    {
+        right: 50%;
+        top: 30%;
+    }
+    75%
+    {
+        right: 40%;
+        top: 20%;
+    }
+    100%
+    {
+        right: -50%;
+        top: 10%;
+    }
+}
+.box h2{
+    position: relative;
+    text-align: center;
+    font-size: 105px;
+    color: white;
+    margin-top: 30px;
+    overflow: hidden;
+    font-weight: bold;
+}
+.box summary{
+    text-align: center;
+    border: 2px solid rgb(97, 102, 90);
+    font-size: 45px;
+    height: 131px;
+    margin: 48px;
+    padding: 13px;
+    border-radius: 30px;
+    width: 1229px;
+    background-color: rgba(0, 0, 0, 0.301);
+    font-weight: bold;
+    color: rgb(0, 195, 255);
+}
+.box details{
+    height: auto;
+    margin: auto;
+    padding: 13px;
+    width: 1255px;
+    text-align: justify;
+    border-radius: 30px;
+    border: 2px solid rgb(241, 241, 240);
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(179, 235, 48);
+    background-color: rgba(0, 0, 0, 0.301);
+}
+.footer{
+    position: fixed;
+    color: honeydew;
+    font-size: 35px;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    height: 64px;
+    padding-top: 25px;
+    background-color: black;
+    margin: auto;
+    font-weight: bold;
+}
